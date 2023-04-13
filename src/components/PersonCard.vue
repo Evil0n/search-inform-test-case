@@ -4,7 +4,7 @@
             <h2 class="card__header">{{active.val}}</h2>
             <div class="card__info">
                 <div class="card__imageContainer">
-                    <img :src="`/${active.avatar}`" :alt="active.val" class="card__avatar">
+                    <img :src="`/search-inform-test-case/${active.avatar}`" :alt="active.val" class="card__avatar">
                     <div class="card__activityIndicator" :class="{ card__activityIndicator_active: active.activity }"></div>
                 </div>
                 <div class="card__infoContainer">
